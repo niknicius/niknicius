@@ -1,16 +1,46 @@
-### Hi there 👋
+# Vinnicius Santos
+[![Linkedin Badge](https://img.shields.io/badge/-vinnicius-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vinnicius-santos/)](https://www.linkedin.com/in/vinnicius-santos/)
+[![Gmail Badge](https://img.shields.io/badge/-vinnicius.santos@dcx.ufpb.br-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:vinnicius.santos@dcx.ufpb.br)](mailto:vinnicius.santos@dcx.ufpb.br)
 
-<!--
-**niknicius/niknicius** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```php
+<?php
 
-Here are some ideas to get you started:
+namespace VinniciusSantos;
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+class About extends Me
+{
+    public function getCurrentWorkplaceInfo()
+    {
+        return [
+            'workplace' => [
+                'company' => 'Virtus',
+                'position' => 'Full Stack Intern Developer'         
+            ]
+        ];
+    }
+    
+    public function getCurrentCollegeInfo(){
+        return [
+            'college' => [
+                'name' => 'UFPB'
+                'semester' => 7 
+            ]
+        ]
+    }
+
+    public function getKnowledge()
+    {
+        return [
+            Php::class,
+            Javascript::class,
+            Laravel::class,
+            Java::class,
+            Angular::class,
+            SpringBoot::class,
+            NestJS::class,
+            GraphQL::class,
+            Aws::class,
+        ];
+    }
+}
+```

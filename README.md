@@ -13,8 +13,9 @@ class About extends Me
     {
         return [
             'workplace' => [
-                'company' => 'Virtus',
-                'position' => 'Full Stack Intern Developer'         
+                'company' => 'Virtus - UFCG',
+                'position' => 'Full Stack Development Technician',
+                'type' =>  WorkType.PART_TIME
             ]
         ];
     }
@@ -23,7 +24,7 @@ class About extends Me
         return [
             'college' => [
                 'name' => 'UFPB'
-                'semester' => 7 
+                'semester' => 8 
             ]
         ]
     }
@@ -31,7 +32,7 @@ class About extends Me
     public function getKnowledge()
     {
         return [
-            Php::class,
+            PHP::class,
             Javascript::class,
             Laravel::class,
             Java::class,

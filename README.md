@@ -13,9 +13,9 @@ class About extends Me
     {
         return [
             'workplace' => [
-                'company' => 'Virtus - UFCG',
-                'position' => 'Full Stack Development Technician',
-                'type' =>  WorkType.PART_TIME
+                'company' => 'Nelogica',
+                'position' => 'Backend Software Developer',
+                'type' =>  WorkType.FULL_TIME
             ]
         ];
     }
@@ -24,7 +24,8 @@ class About extends Me
         return [
             'college' => [
                 'name' => 'UFPB'
-                'semester' => 8 
+                'semester' => 9,
+                'forming' => true
             ]
         ]
     }
@@ -36,6 +37,7 @@ class About extends Me
             Javascript::class,
             Laravel::class,
             Java::class,
+            Delphi::class,
             Angular::class,
             SpringBoot::class,
             NestJS::class,
